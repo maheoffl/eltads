@@ -3,7 +3,7 @@ import call from '../assets/icons8-outgoing-call-60.png'
 
 function Header() {
   return (
-      <header className=' sticky top-0 z-50 h-20 py-6 border-b bg-white'>
+      <header className=' sticky top-0 z-50 h-20 py-6 border-b bg-white bg-gradient-to-r from-indigo-100 to-indigo-200 font-sans text-[1.1vw]'>
           <div className=" h-full w-full relative flex items-center justify-between px-32">
               <a href="#" className='logolink'>
                  <img src="#" alt="Logo" />
