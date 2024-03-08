@@ -5,7 +5,7 @@ import call from '../assets/icons8-outgoing-call-60.png'
 function Aboutus() {
   return (
       <div className='h-[80vh] w-full bg-white flex items-center justify-between px-40 bg-gradient-to-r from-indigo-100 font-sans	 '>
-          <div className="aboutimg h-[60vh]  w-[60vh]  rounded-sm  drop-shadow-2xl">
+          <div className="aboutimg h-[60vh]  w-[60vh]  rounded-sm  drop-shadow-2xl hover:shadow-2xl">
               <img src={abt} alt="img"  className=' bg-cover bg-center h-full w-full rounded-sm drop-shadow-2xl'/>
           </div>
           <div className="abouttxt h-[70%] w-[50%] px-5 space-x-3 space-y-3 text-wrap ">
