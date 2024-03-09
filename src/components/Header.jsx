@@ -8,7 +8,7 @@ function Header() {
               <a href="#" className='logolink'>
                  <img src="#" alt="Logo" />
               </a>
-              <div className="links flex items-center gap-16">
+              <div className="links flex items-center gap-16 uppercase tracking-wide text-[1.0vw] font-medium ">
                   <a href="#">
                       About Us</a>
                   <a href="#">
