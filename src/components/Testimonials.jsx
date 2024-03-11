@@ -2,7 +2,7 @@ import React from 'react'
 
 function Testimonials() {
   return (
-      <div className=' h-[70vh] w-full'>
+      <div className=' h-[60vh] w-full'>
           <div className="clienttxt w-full h-[15%]  flex items-center justify-center text-3xl font-mono capitalize">
               <h3>Our Clients</h3>
           </div>

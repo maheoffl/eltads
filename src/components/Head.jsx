@@ -12,7 +12,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className=" sticky inset-x-0 top-0 z-50 bg-white font-mono px-14">
+    <header className=" sticky inset-x-0 top-0 z-50 bg-white font-mono ">
       <nav
         className="flex items-center justify-between p-8 lg:px-8 "
         aria-label="Global">
