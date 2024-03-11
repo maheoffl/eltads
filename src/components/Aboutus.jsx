@@ -1,6 +1,5 @@
 import React from "react";
 import abt from "../assets/aboutimg1.jpg";
-import call from "../assets/icons8-outgoing-call-60.png";
 
 function Aboutus() {
   return (
