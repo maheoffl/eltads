@@ -11,7 +11,7 @@ function Whyus() {
           <p className="text-red-900 font-bold text-[24px] sm:text-[1.7vw] sm:text-[28px] ">
             We working for you to build your business fast.
           </p>
-          <p className=" text-[22px] font-sans tracking-wide text-justify font-extralight sm:pl-5 sm:text-[22px] font-sans sm:pl-10 sm:font-normal align-super ">
+          <p className=" text-[22px] font-sans tracking-wide text-justify font-light sm:pl-5 sm:text-[22px] font-sans sm:pl-10 sm:font-normal align-super ">
             with<span className=" text-red-600 font-bold"> 18+</span>years of
             expertise in Hyderabad, is your go-to partner for impactful and
             cost-effective auto advertising. We specialize in crafting
