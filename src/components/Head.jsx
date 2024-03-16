@@ -19,7 +19,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">eltautoads</span>
-            <h1 className=" font-normal text-xl">ELT auto ads</h1>
+            <h1 className=" font-normal text-xl">ELTads</h1>
           </a>
         </div>
         <div className="flex lg:hidden">

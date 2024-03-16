@@ -38,7 +38,8 @@ export default function Carosel() {
         className="mySwiper sm:h-[80vh]">
         <SwiperSlide className="slide1 relative">
           <img src={slide1} alt="slide1" />
-          <div className="overlay1 h-full w-full bg-black opacity-10  absolute"></div>
+          <div className="overlay1 h-full w-full bg-black opacity-10  absolute sm:opacity-50"></div>
+          <div className=" text-white absolute hidden sm:block ">hello</div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide2} alt="slide2" />
