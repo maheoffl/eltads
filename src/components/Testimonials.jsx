@@ -55,7 +55,7 @@ const data = [
 function Testimonials() {
   return (
     <div className=" h-[60vh] w-full">
-      <div className="clienttxt w-full h-[15%]  flex items-center justify-center text-3xl font-mono capitalize">
+      <div className="clienttxt w-full h-[15%]  flex items-center justify-center text-3xl  capitalize">
         <h3>Our Clients</h3>
       </div>
       <div className="clientlogo w-full h-[25%]  px-[10vw] flex justify-between  items-center">

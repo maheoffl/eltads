@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       <div
-        className=" h-[50vh] w-full flex  items-center  justify-between text-white font-mono sm:h-[80vh] "
+        className=" h-[50vh] w-full flex  items-center  justify-between text-white  sm:h-[80vh] "
         style={{ backgroundColor: "#001C40" }}>
         <Maps />
         <div className="leftfoot h-[70%] w-[50%]   flex flex-col gap-10  ">

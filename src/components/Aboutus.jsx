@@ -3,7 +3,7 @@ import abt from "../assets/aboutimg1.jpg";
 
 function Aboutus() {
   return (
-    <div className="h-[55vh] w-full font-sans	 sm:h-[80vh]  sm:flex sm:items-center sm:justify-between sm:h-[80vh] sm:px-20">
+    <div className="h-[55vh] w-full 	 sm:h-[80vh]  sm:flex sm:items-center sm:justify-between sm:h-[80vh] sm:px-20">
       <div className="aboutimg h-[60vh]  w-full  rounded-sm  drop-shadow-2xl hover:shadow-2xl hidden sm:block sm:h-[60vh] sm:w-[50vw]  ">
         <img
           src={abt}
@@ -15,7 +15,7 @@ function Aboutus() {
         <h2 className=" font-medium text-[30px] pt-2 uppercase pb-2 text-blue-950 sm:text-[40px]">
           Welcome to ELT ADS !
         </h2>
-        <p className=" text-[22px] text-justify indent-2 font-light sm:text-[22px] font-sans sm:pl-10 sm:font-normal align-super ">
+        <p className=" text-[22px] text-justify indent-2 font-extralight sm:text-[22px]  sm:pl-10 sm:font-normal align-super ">
           <span className=" text-red-600 font-bold ">EltAutoAds</span> is the
           leading force in accelerated auto advertising services in Hyderabad,
           dedicated to revolutionizing the way you connect with your audience.

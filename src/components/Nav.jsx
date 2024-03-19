@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../assets/logo1.png";
 
 const navigation = [
   { name: "Home ", href: "#" },
@@ -12,14 +13,14 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className=" sticky inset-x-0 top-0 z-50 bg-white font-mono ">
+    <header className=" sticky inset-x-0 top-0 z-50 ">
       <nav
-        className="flex items-center justify-between p-8 lg:px-8 "
+        className="flex items-center justify-between p-8 lg:px-8  "
         aria-label="Global">
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+        <div className="flex lg:flex-1  ">
+          <a href="#" className="-m-1.5 p-1.5  h-[60px]">
             <span className="sr-only">eltautoads</span>
-            <h1 className=" font-normal text-xl">ELTads</h1>
+            <img src={logo} alt="eltautoads" className=" h-[55px]" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -57,7 +58,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">eltautoads</span>
-              <h1>ElT auto ads</h1>
+              <img src={logo} alt="eltautoads" />
             </a>
             <button
               type="button"

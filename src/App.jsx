@@ -4,12 +4,12 @@ import Aboutus from "./components/Aboutus";
 import Whyus from "./components/Whyus";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-import Head from "./components/Head";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
     <>
-      <Head />
+      <Nav />
       <Carosel />
       <Aboutus />
       <Whyus />
